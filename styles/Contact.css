@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: blanchedalmond;
+}
+header{
+	box-sizing: border-box;
+	background-image: url("../images/bckimage2.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#logo{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 40px;
+	}
+naV{
+	background-color: #D7BC93;
+	padding: 20px 5px;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	
+}
+nav ul li{
+	text-decoration: none;
+	
+}
+nav ul li a{
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+	text-decoration: none
+}
+nav ul li a:hover{
+	font-weight: bolder;
+	font-size: 19px;
+}
+.main{
+	display: flex
+}
+aside{
+	flex: 1;
+	border:1px solid black;
+	padding: 12px;
+}
+main{
+	flex: 3;
+	border: 1px solid black;
+	padding: 20px;
+}
+footer{
+	padding: 25px;
+	background-color: #D7BC93;
+}
